@@ -1,9 +1,13 @@
 const photos = [
   { id: 1, type: "Medium", url: "/images/dsaybknnx5wtklikzjfy.webp", alt: "Full Length" },
   { id: 2, type: "Medium", url: "/images/gz2penofcehfkoatgjh9.webp", alt: "Focus" },
-  { id: 3, type: "Medium", url: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800", alt: "Medium" },
-  { id: 4, type: "Full Length", url: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=800", alt: "Full Length" },
-  { id: 5, type: "Focus", url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800", alt: "Focus" },
+  { id: 3, type: "Full Length", url: "/images/hzxdirl234kyhaur1wcf.webp", alt: "Medium" },
+  { id: 4, type: "Full Length", url: "/images/ijqdkfqtui3z1r5us2mb.webp", alt: "Full Length" },
+  { id: 5, type: "Focus", url: "/images/klx7mp5ax6lgw7admceo.webp", alt: "Focus" },
+  { id: 6, type: "Focus", url: "/images/srhdrfco6pwuqjeahxtb.webp", alt: "Focus" },
+  { id: 7, type: "Full length", url: "/images/xj6srw1gub722k7zlkdn.webp", alt: "Focus" },
+  { id: 8, type: "Full length", url: "/images/yuty7fwbyzyweyuubkfq.webp", alt: "Focus" },
+  { id: 9, type: "Focus", url: "/images/zukia9ktt8gn3gptryad.webp", alt: "Focus" },
 ];
 
 export default function Gallery() {
