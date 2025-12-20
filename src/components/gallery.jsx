@@ -1,6 +1,6 @@
 const photos = [
-  { id: 1, type: "Medium", url: "public/images/dsaybknnx5wtklikzjfy.webp", alt: "Full Length" },
-  { id: 2, type: "Medium", url: "public/images/gz2penofcehfkoatgjh9.webp", alt: "Focus" },
+  { id: 1, type: "Medium", url: "/images/dsaybknnx5wtklikzjfy.webp", alt: "Full Length" },
+  { id: 2, type: "Medium", url: "/images/gz2penofcehfkoatgjh9.webp", alt: "Focus" },
   { id: 3, type: "Medium", url: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800", alt: "Medium" },
   { id: 4, type: "Full Length", url: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=800", alt: "Full Length" },
   { id: 5, type: "Focus", url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800", alt: "Focus" },
