@@ -1,43 +1,25 @@
-import { useState } from 'preact/hooks'
-import preactLogo from './assets/preact.svg'
-import viteLogo from '/vite.svg'
-import './app.css'
+import Navbar from './components/Navbar';
+import Hero from './components/Hero';
+import Gallery from './components/gallery';
+import Stats from './components/Stats'; // 1. Add this import
 
-export function App() {
-  const [count, setCount] = useState(0)
-
+function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} class="logo" alt="Vite logo" />
-        </a>
-        <a href="https://preactjs.com" target="_blank">
-          <img src={preactLogo} class="logo preact" alt="Preact logo" />
-        </a>
-      </div>
-      <h1>Vite + Preact</h1>
-      <div class="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/app.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p>
-        Check out{' '}
-        <a
-          href="https://preactjs.com/guide/v10/getting-started#create-a-vite-powered-preact-app"
-          target="_blank"
-        >
-          create-preact
-        </a>
-        , the official Preact + Vite starter
-      </p>
-      <p class="read-the-docs">
-        Click on the Vite and Preact logos to learn more
-      </p>
-    </>
-  )
+    <div className="font-sans antialiased selection:bg-black selection:text-white">
+      <Navbar />
+      <Hero />
+      <Gallery />
+      <Stats /> {/* 2. Add this tag here with id="about" inside it */}
+      
+      <section id="contact" className="py-32 bg-gray-50 px-6 text-center">
+        {/* ... existing contact code ... */}
+      </section>
+
+      <footer className="py-12 text-center">
+         {/* ... existing footer code ... */}
+      </footer>
+    </div>
+  );
 }
+
+export default App;
