@@ -33,7 +33,7 @@ function App() {
                 href="mailto:booking@yourdomain.com" 
                 className="text-xl md:text-2xl border-b border-black pb-1 hover:text-gray-400 hover:border-gray-400 transition-all duration-300"
               >
-                booking@yourdomain.com
+                nikita52089@gmaail.com
               </a>
               
               <div className="flex gap-8 mt-4 text-[10px] uppercase tracking-widest font-bold">
