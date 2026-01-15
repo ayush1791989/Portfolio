@@ -22,27 +22,37 @@ function App() {
 
         {/* 5. Contact / Booking Section */}
         <section id="contact" className="py-32 bg-gray-50 px-6 text-center">
-          <div className="max-w-xl mx-auto">
-            <h3 className="font-serif text-4xl mb-6 italic">Inquiries</h3>
-            <p className="text-gray-500 uppercase tracking-[0.3em] text-[10px] mb-10">
-              Direct or Agency Representation
-            </p>
-            
-            <div className="flex flex-col gap-6 items-center">
-              <a 
-                href="mailto:booking@yourdomain.com" 
-                className="text-xl md:text-2xl border-b border-black pb-1 hover:text-gray-400 hover:border-gray-400 transition-all duration-300"
-              >
-                nikita52089@gmaail.com
-              </a>
-              
-              <div className="flex gap-8 mt-4 text-[10px] uppercase tracking-widest font-bold">
-                <a href="#" className="hover:opacity-50">Instagram</a>
-                <a href="#" className="hover:opacity-50">LinkedIn</a>
-              </div>
-            </div>
-          </div>
-        </section>
+  <div className="max-w-xl mx-auto">
+    <h3 className="font-serif text-4xl mb-6 italic">Inquiries</h3>
+    <p className="text-gray-500 uppercase tracking-[0.3em] text-[10px] mb-10">
+      For Bookings & Direct Inquiries
+    </p>
+    
+    <div className="flex flex-col gap-8 items-center">
+      {/* Email Link */}
+      <div className="flex flex-col gap-2">
+        <span className="text-[9px] uppercase tracking-widest text-gray-400">Email</span>
+        <a 
+          href="mailto:nikita52089@gmaail.com" 
+          className="text-xl md:text-2xl border-b border-black pb-1 hover:text-gray-400 hover:border-gray-400 transition-all duration-300"
+        >
+          booking@yourdomain.com
+        </a>
+      </div>
+
+      {/* Phone Number Link */}
+      <div className="flex flex-col gap-2">
+        <span className="text-[9px] uppercase tracking-widest text-gray-400">Phone</span>
+        <a 
+          href="tel:9172668300" 
+          className="text-xl md:text-2xl border-b border-black pb-1 hover:text-gray-400 hover:border-gray-400 transition-all duration-300"
+        >
+          +1 (234) 567-890
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
       </main>
 
       {/* 6. Footer */}
