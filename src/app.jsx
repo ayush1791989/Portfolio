@@ -47,7 +47,7 @@ function App() {
           href="tel:9172668300" 
           className="text-xl md:text-2xl border-b border-black pb-1 hover:text-gray-400 hover:border-gray-400 transition-all duration-300"
         >
-          +1 (234) 567-890
+          9172668300
         </a>
       </div>
     </div>
