@@ -1,9 +1,9 @@
 export default function Stats() {
   const measurements = [
-    { label: "Height", value: "5'2\" / 180cm" },
+    { label: "Height", value: "5'2\" / 157cm" },
     { label: "Bust", value: "32\" / 81cm" },
-    { label: "Waist", value: "24\" / 61cm" },
-    { label: "Hips", value: "34\" / 86cm" },
+    { label: "Waist", value: "29\" / 73cm" },
+    { label: "Hips", value: "36\" / 91cm" },
     { label: "Shoes", value: "5 US" },
     { label: "Eyes", value: "black" },
     { label: "Hair", value: "Brownish Black" },
